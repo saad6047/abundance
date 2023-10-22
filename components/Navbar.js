@@ -193,6 +193,21 @@ const Navbar = () => {
                                     Products
                                 </p>
 
+                                <div
+                                    className="flex items-center px-3 py-2 pl-6 cursor-pointer hover:bg-gray-50"
+                                    onClick={() => {
+                                        router.push("/products/trypay");
+                                    }}
+                                >
+                                    <Image
+                                        src={logoIcon}
+                                        alt="trypay"
+                                        width={18}
+                                        className="mr-2"
+                                    />
+                                    <h1 className="font-semibold">Trypay</h1>
+                                </div>
+
                                 <a
                                     href={"/#features"}
                                     className="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"

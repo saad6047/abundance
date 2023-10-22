@@ -72,7 +72,7 @@ const About = () => {
                     <div className="overflow-hidden">
                         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
                             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl z-10">
+                                <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl z-10">
                                     <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                                         We are changing the way people Pay.
                                     </h1>
