@@ -43,16 +43,16 @@ const Privacy = () => {
                             </h1>
 
                             <p className="text-gray-500">
-                                This privacy policy (the "PRIVACY POLICY")
-                                applies to your use of the website of Razorpay
-                                hosted at razorpay.com, the Services (as defined
-                                under the Razorpay "Terms of Use") and Razorpay
-                                applications on mobile platforms (Android,
-                                Blackberry, Windows Phone, iOS etc.)
-                                (collectively ("RAZORPAY" or "WEBSITE")), but
-                                does not apply to any third party websites that
-                                may be linked to them, or any relationships you
-                                may have with the businesses listed on Razorpay.
+                                This privacy policy (the PRIVACY POLICY) applies
+                                to your use of the website of Razorpay hosted at
+                                razorpay.com, the Services (as defined under the
+                                Razorpay Terms of Use) and Razorpay applications
+                                on mobile platforms (Android, Blackberry,
+                                Windows Phone, iOS etc.) (collectively (RAZORPAY
+                                or WEBSITE)), but does not apply to any third
+                                party websites that may be linked to them, or
+                                any relationships you may have with the
+                                businesses listed on Razorpay.
                                 <br />
                                 <br />
                                 We have implemented reasonable security
@@ -86,8 +86,8 @@ const Privacy = () => {
                             <p className="text-gray-500">
                                 We collect, receive and store your Personal
                                 Information. If you provide your third-party
-                                account credentials ("THIRD PARTY ACCOUNT
-                                INFORMATION") to us, you understand that some
+                                account credentials (THIRD PARTY ACCOUNT
+                                INFORMATION) to us, you understand that some
                                 content and information in those accounts may be
                                 transmitted to your account with us if you
                                 authorise such transmissions and that Third
@@ -135,10 +135,10 @@ const Privacy = () => {
                                 Data or Information (such as any financial
                                 information including inter alia credit card,
                                 debit card details, bank account and know your
-                                customer ("KYC") documents as per RBI
-                                regulations and any other information as may be
-                                applicable) that the User may opt to save in the
-                                User account created with Razorpay]. We use your
+                                customer (KYC) documents as per RBI regulations
+                                and any other information as may be applicable)
+                                that the User may opt to save in the User
+                                account created with Razorpay]. We use your
                                 email address to send you updates, news, and
                                 newsletters (if you willingly subscribe to the
                                 newsletter during signup, or anytime after
@@ -220,7 +220,7 @@ const Privacy = () => {
                                 Our logos, product and service marks and/ or
                                 names, trademarks, copyrights and other
                                 intellectual property, whether registered or not
-                                ("OUR IP") are exclusively owned by us. Without
+                                (OUR IP) are exclusively owned by us. Without
                                 our prior written permission, you agree to not
                                 display and/ or use Our IP in any manner.
                                 Nothing contained in this Website or the
@@ -237,35 +237,35 @@ const Privacy = () => {
                             <p className="text-gray-500">
                                 We send cookies to your computer in order to
                                 uniquely identify your browser and improve the
-                                quality of our service. The term "cookies"
-                                refers to small pieces of information that a
-                                website sends to your computer's hard drive
-                                while you are viewing the site. We may use both
-                                session cookies (which expire once you close
-                                your browser) and persistent cookies (which stay
-                                on your computer until you delete them).
-                                Persistent cookies can be removed by following
-                                your browser help file directions. If you choose
-                                to disable cookies, some areas of Razorpay may
-                                not work properly or at all. Razorpay uses third
-                                party tools, who may collect anonymous
-                                information about your visits to Razorpay using
-                                cookies, and interaction with Razorpay products
-                                and services. Such third parties may also use
-                                information about your visits to Razorpay
-                                products and services and other web sites to
-                                target advertisements for Razorpay's products
-                                and services. No Personal Information is
-                                collected or used in this process. These third
-                                parties do not know or have access to the name,
-                                phone number, address, email address, or any
-                                Personal Information about Razorpay's Users.
-                                Razorpay Users can opt-out of sharing this
-                                information with third parties by deactivating
-                                cookies, the process of which varies from
-                                browser to browser. Please refer to the help
-                                file of your browser to understand the process
-                                of deactivating cookies on your browser.
+                                quality of our service. The term cookies refers
+                                to small pieces of information that a website
+                                sends to your computers hard drive while you are
+                                viewing the site. We may use both session
+                                cookies (which expire once you close your
+                                browser) and persistent cookies (which stay on
+                                your computer until you delete them). Persistent
+                                cookies can be removed by following your browser
+                                help file directions. If you choose to disable
+                                cookies, some areas of Razorpay may not work
+                                properly or at all. Razorpay uses third party
+                                tools, who may collect anonymous information
+                                about your visits to Razorpay using cookies, and
+                                interaction with Razorpay products and services.
+                                Such third parties may also use information
+                                about your visits to Razorpay products and
+                                services and other web sites to target
+                                advertisements for Razorpays products and
+                                services. No Personal Information is collected
+                                or used in this process. These third parties do
+                                not know or have access to the name, phone
+                                number, address, email address, or any Personal
+                                Information about Razorpays Users. Razorpay
+                                Users can opt-out of sharing this information
+                                with third parties by deactivating cookies, the
+                                process of which varies from browser to browser.
+                                Please refer to the help file of your browser to
+                                understand the process of deactivating cookies
+                                on your browser.
                             </p>
 
                             <h1 className="mt-6 mb-6 text-xl font-bold tracking-tight text-gray-700 sm:text-2xl">

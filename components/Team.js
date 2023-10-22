@@ -1,51 +1,53 @@
 import { GridPattern } from "./GridPattern";
+import Image from "next/image";
+
+import member1 from "../public/images/team1.avif";
+import member2 from "../public/images/team2.avif";
+import member3 from "../public/images/team3.avif";
+import member4 from "../public/images/team4.avif";
+import member5 from "../public/images/team5.avif";
+import member6 from "../public/images/team6.avif";
 
 const people = [
     {
         name: "Leonard Krasner",
         role: "Senior Designer",
-        imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        imageUrl: member1,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
         name: "Floyd Miles",
         role: "Principal Designer",
-        imageUrl:
-            "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        imageUrl: member2,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
         name: "Emily Selman",
         role: "VP, User Experience",
-        imageUrl:
-            "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        imageUrl: member3,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
         name: "Michael Foster",
         role: "UI/UX Designer",
-        imageUrl:
-            "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        imageUrl: member4,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
         name: "Kristin Watson",
         role: "Product Manager",
-        imageUrl:
-            "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        imageUrl: member5,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
         name: "Whitney Francis",
         role: "Chief technology officer",
-        imageUrl:
-            "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        imageUrl: member6,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
@@ -80,7 +82,7 @@ const Team = ({ title }) => {
                             key={person.name}
                             className="rounded-2xl bg-gray-100 px-8 py-10 custom-shadow"
                         >
-                            <img
+                            <Image
                                 className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
                                 src={person.imageUrl}
                                 alt=""

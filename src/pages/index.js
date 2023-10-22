@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from "react";
+import Image from "next/image";
 import Head from "next/head";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
@@ -86,9 +87,11 @@ const Home = () => {
                                     <div className="-mb-16 mt-12 sm:-mb-48 lg:relative lg:m-0">
                                         <div className="mx-auto max-w-md px-6 sm:max-w-2xl lg:max-w-none lg:px-0">
                                             {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
-                                            <img
+                                            <Image
                                                 className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                                                 src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg"
+                                                width={1000}
+                                                height={1000}
                                                 alt=""
                                             />
                                         </div>
