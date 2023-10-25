@@ -62,17 +62,22 @@ const Home = () => {
                                         <div className="lg:py-24">
                                             <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                                                 <span className="block">
-                                                    Your Gateway to
+                                                    Where Innovation
                                                 </span>
                                                 <span className="block bg-gradient-to-r from-primary to-secondary bg-clip-text pb-3 text-transparent mt-3 sm:pb-5">
-                                                    Financial Freedom
+                                                    Meets Payments
                                                 </span>
                                             </h1>
                                             <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                                                Accept payments from customers.
-                                                Automate payouts to vendors &
-                                                employees. Never run out of
-                                                working capital.
+                                                Abundance Payment Solution, was
+                                                founded in 2020. We are a
+                                                leading fintech company
+                                                dedicated to simplifying online
+                                                payments. With a focus on
+                                                providing secure and efficient
+                                                UPI payment solutions, we aim to
+                                                make digital transactions a
+                                                breeze
                                             </p>
                                             <div className="flex justify-center mt-6 sm:mt-8 lg:justify-start">
                                                 <button

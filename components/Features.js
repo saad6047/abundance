@@ -60,7 +60,7 @@ const Features = () => {
             </div>
             <div className="relative mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8 z-10">
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    Everything you need for online payment
+                    Everything you need for online payments
                 </p>
                 <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
                     Empower your business with all the right tools to accept

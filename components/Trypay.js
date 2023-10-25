@@ -58,11 +58,12 @@ const Trypay = () => {
                                     </h1>
 
                                     <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                                        Automate your banking and finances in
-                                        one place with Trypay. So now say no to
-                                        financial hassle, and get more time to
-                                        grow your business, build a better
-                                        product, or just take that vacation.
+                                        TryPay is our flagship product, designed
+                                        to provide a smooth and quick UPI
+                                        payment experience for websites and
+                                        apps. It is the ideal solution for
+                                        businesses and individuals looking to
+                                        streamline their online transactions
                                     </p>
 
                                     <div className="flex justify-center mt-6 sm:mt-8 lg:justify-start">

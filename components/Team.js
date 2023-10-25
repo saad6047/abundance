@@ -1,53 +1,21 @@
 import { GridPattern } from "./GridPattern";
 import Image from "next/image";
 
-import member1 from "../public/images/team1.avif";
-import member2 from "../public/images/team2.avif";
-import member3 from "../public/images/team3.avif";
-import member4 from "../public/images/team4.avif";
-import member5 from "../public/images/team5.avif";
-import member6 from "../public/images/team6.avif";
+import member1 from "../public/images/team1.png";
+import member2 from "../public/images/team2.png";
 
 const people = [
     {
-        name: "Leonard Krasner",
+        name: "Yam Bahadur P",
         role: "Senior Designer",
         imageUrl: member1,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
-        name: "Floyd Miles",
+        name: "A Lokesh",
         role: "Principal Designer",
         imageUrl: member2,
-        twitterUrl: "#",
-        linkedinUrl: "#",
-    },
-    {
-        name: "Emily Selman",
-        role: "VP, User Experience",
-        imageUrl: member3,
-        twitterUrl: "#",
-        linkedinUrl: "#",
-    },
-    {
-        name: "Michael Foster",
-        role: "UI/UX Designer",
-        imageUrl: member4,
-        twitterUrl: "#",
-        linkedinUrl: "#",
-    },
-    {
-        name: "Kristin Watson",
-        role: "Product Manager",
-        imageUrl: member5,
-        twitterUrl: "#",
-        linkedinUrl: "#",
-    },
-    {
-        name: "Whitney Francis",
-        role: "Chief technology officer",
-        imageUrl: member6,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
