@@ -7,14 +7,14 @@ import member2 from "../public/images/team2.png";
 const people = [
     {
         name: "Yam Bahadur P",
-        role: "Senior Designer",
+        role: "",
         imageUrl: member1,
         twitterUrl: "#",
         linkedinUrl: "#",
     },
     {
         name: "A Lokesh",
-        role: "Principal Designer",
+        role: "",
         imageUrl: member2,
         twitterUrl: "#",
         linkedinUrl: "#",

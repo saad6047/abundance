@@ -142,12 +142,12 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="hidden md:flex md:items-center md:space-x-6">
-                        <a
-                            href="#"
+                        <Link
+                            href="/contact"
                             className="inline-flex items-center rounded-md border border-transparent text-gray-900 bg-white px-4 py-2 text-base font-medium hover:bg-secondary transition-all outline-none"
                         >
                             Get In Touch
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </div>
@@ -231,7 +231,9 @@ const Navbar = () => {
                             </div>
                             <div className="mt-6 px-5">
                                 <button
-                                    type="submit"
+                                    onClick={() => {
+                                        router.push("/contact");
+                                    }}
                                     className="block w-full rounded-md bg-primary px-4 py-3 font-medium text-white shadow outline-none hover:bg-secondary hover:text-gray-900 transition-all"
                                 >
                                     Get In Touch

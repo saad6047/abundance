@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 import Navbar from "@/components/Navbar";
@@ -13,6 +14,8 @@ import PartnersSlider from "@/components/PartnersSlider";
 
 const Home = () => {
     const [isScrollToTopBtn, setIsScrollToTopBtn] = useState();
+
+    const router = useRouter();
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -70,7 +73,7 @@ const Home = () => {
                                             </h1>
                                             <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
                                                 Abundance Payment Solution, was
-                                                founded in 2020. We are a
+                                                founded in 2023. We are a
                                                 leading fintech company
                                                 dedicated to simplifying online
                                                 payments. With a focus on
@@ -81,7 +84,9 @@ const Home = () => {
                                             </p>
                                             <div className="flex justify-center mt-6 sm:mt-8 lg:justify-start">
                                                 <button
-                                                    type="submit"
+                                                    onClick={() => {
+                                                        router.push("/contact");
+                                                    }}
                                                     className="block w-[160px] rounded-md bg-primary px-4 py-3 font-medium text-white shadow outline-none hover:bg-secondary hover:text-gray-900 transition-all"
                                                 >
                                                     Get In Touch
