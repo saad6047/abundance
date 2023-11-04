@@ -5,6 +5,11 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import {
+    BuildingOffice2Icon,
+    EnvelopeIcon,
+    PhoneIcon,
+} from "@heroicons/react/24/outline";
 
 import logo from "../public/images/logo.png";
 
@@ -39,7 +44,10 @@ const Footer = () => {
 
                         <p className="text-base text-gray-500">
                             Making the World a Better Place Through Seamless and
-                            Secure Payments.
+                            Secure Payments. Abundance aims to revolutionize
+                            money management for online businesses by providing
+                            clean, developer-friendly APIs and hassle-free
+                            integration
                         </p>
                         <div className="flex space-x-6">
                             <FacebookIcon className="text-gray-400 hover:text-gray-500 cursor-pointer" />
@@ -83,6 +91,55 @@ const Footer = () => {
                                         </li>
                                     ))}
                                 </ul>
+                            </div>
+                        </div>
+
+                        <div className="md:grid md:grid-cols-2 md:gap-8">
+                            <div className="mt-12 md:mt-0">
+                                <h3 className="text-base font-medium text-gray-900">
+                                    Contact Info
+                                </h3>
+
+                                <dl className="mt-4 space-y-4 text-base leading-7 text-gray-500">
+                                    <div className="flex gap-x-4">
+                                        <dt className="flex-none">
+                                            <span className="sr-only">
+                                                Telephone
+                                            </span>
+                                            <PhoneIcon
+                                                className="h-7 w-6"
+                                                aria-hidden="true"
+                                            />
+                                        </dt>
+                                        <dd>
+                                            <a
+                                                className="hover:text-white"
+                                                href="tel:+1 (555) 234-5678"
+                                            >
+                                                +1 (555) 234-5678
+                                            </a>
+                                        </dd>
+                                    </div>
+                                    <div className="flex gap-x-4">
+                                        <dt className="flex-none">
+                                            <span className="sr-only">
+                                                Email
+                                            </span>
+                                            <EnvelopeIcon
+                                                className="h-7 w-6"
+                                                aria-hidden="true"
+                                            />
+                                        </dt>
+                                        <dd>
+                                            <a
+                                                className="hover:text-white"
+                                                href="mailto:hello@example.com"
+                                            >
+                                                hello@example.com
+                                            </a>
+                                        </dd>
+                                    </div>
+                                </dl>
                             </div>
                         </div>
                     </div>
